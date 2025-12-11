@@ -81,7 +81,7 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://files.catbox.moe/lsxb6h.jpg'' },
+                            image: { url: 'https://files.catbox.moe/lsxb6h.jpg' },
                             caption: `🎬 *TUNZY - MD Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtube.com/@unveiledhacking?si=JagMKZ7Y9XWTvDl3`
                         });
                         console.log("🎬 Video guide sent successfully");
